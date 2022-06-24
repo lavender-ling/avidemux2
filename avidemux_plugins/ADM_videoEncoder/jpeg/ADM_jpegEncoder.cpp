@@ -96,7 +96,7 @@ uint32_t pixfrmtM;
         {ADM_PIXFRMT_YV12,QT_TRANSLATE_NOOP("jpeg","YUV420"),NULL}
     };
 
-    diaElemUInteger  q(&(jpegConf.quantizer),QT_TRANSLATE_NOOP("jpeg","_Quantizer:"),2,31);
+    diaElemUInteger  q(&(jpegConf.quantizer),QT_TRANSLATE_NOOP("jpeg","_Quantizer:"),0,31);
     diaElemMenu      c(&pixfrmtM,QT_TRANSLATE_NOOP("jpeg","_Pixel format:"),2,pixfrmtMenus);
 
     diaElem *elems[2]={&q,&c};
