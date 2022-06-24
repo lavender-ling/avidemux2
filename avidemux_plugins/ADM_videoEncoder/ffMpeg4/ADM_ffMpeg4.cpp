@@ -218,9 +218,9 @@ diaMenuEntry threads[]={
 
          diaElemBitrate   bitrate(&(Mp4Settings.params),NULL);
          diaElemMenu      threadM(PX(MultiThreaded),QT_TRANSLATE_NOOP("ffmpeg4","Threading"),4,threads);
-         diaElemUInteger  qminM(PX(qmin),QT_TRANSLATE_NOOP("ffmpeg4","Mi_n. quantizer:"),1,31);
-         diaElemUInteger  qmaxM(PX(qmax),QT_TRANSLATE_NOOP("ffmpeg4","Ma_x. quantizer:"),1,31);
-         diaElemUInteger  qdiffM(PX(max_qdiff),QT_TRANSLATE_NOOP("ffmpeg4","Max. quantizer _difference:"),1,31);
+         diaElemUInteger  qminM(PX(qmin),QT_TRANSLATE_NOOP("ffmpeg4","Mi_n. quantizer:"),0,31);
+         diaElemUInteger  qmaxM(PX(qmax),QT_TRANSLATE_NOOP("ffmpeg4","Ma_x. quantizer:"),0,31);
+         diaElemUInteger  qdiffM(PX(max_qdiff),QT_TRANSLATE_NOOP("ffmpeg4","Max. quantizer _difference:"),0,31);
 
          diaElemToggle    fourMv(PX(_4MV),QT_TRANSLATE_NOOP("ffmpeg4","4_MV"));
          diaElemToggle    trellis(PX(_TRELLIS_QUANT),QT_TRANSLATE_NOOP("ffmpeg4","_Trellis quantization"));
