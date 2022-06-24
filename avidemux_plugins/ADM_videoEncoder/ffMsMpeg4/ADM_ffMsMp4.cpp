@@ -32,7 +32,7 @@ FFcodecSettings MsMp4Settings=
 
     {
     COMPRESS_CQ, //COMPRESSION_MODE  mode;
-    2,              // uint32_t          qz;           /// Quantizer
+    1,              // uint32_t          qz;           /// Quantizer
     1500,           //uint32_t          bitrate;      /// In kb/s 
     700,            //uint32_t          finalsize;    /// In ?
     1500,           //uint32_t          avg_bitrate;  /// avg_bitrate is in kb/s!!
